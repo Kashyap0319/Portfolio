@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <button class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="sticker sticker-1"></div>
+        <div class="sticker sticker-2"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Turning Ideas into Digital Reality</h1>
+                <p>Hi, I'm <span class="highlight">Shreyansh Kashyap</span>, a Full-Stack Developer and Data Science enthusiast from Jamshedpur, Jharkhand. I craft elegant solutions to complex problems, blending creativity with technical expertise to build impactful digital experiences.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button">Explore My Projects</a>
+                    <a href="#contact" class="cta-button secondary">Let's Collaborate</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="profile.jpg" alt="Shreyansh Kashyap" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>I've worked with</h2>
+        <div class="skills-slider">
+            <div class="skill-item">
+                <h3>Frontend</h3>
+                <p>React, HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <h3>Backend</h3>
+                <p>Node.js, Express, MongoDB</p>
+            </div>
+            <div class="skill-item">
+                <h3>Tools & Others</h3>
+                <p>Git, VS Code, Postman, Figma</p>
+            </div>
+            <div class="skill-item">
+                <h3>Problem Solving</h3>
+                <p>Data Structures & Algorithms</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <h2>My Resume</h2>
+        <div class="resume-content">
+            <p>Highly skilled Software Developer with experience in full-stack development, data science, and machine learning. Currently pursuing B.Tech in Computer Science Engineering at BIT Mesra.</p>
+            <div class="resume-buttons">
+                <a href="https://drive.google.com/file/d/1sSQJ5QhCw3bQysIXXqUZdhKZHZNG7dO5/view?usp=drive_link" class="cta-button" target="_blank">View Resume</a>
+            </div>
+            <div class="profile-overview">
+                <h3>Education</h3>
+                <div class="education-item">
+                    <h4>Bachelor of Technology in Computer Science Engineering</h4>
+                    <p class="institution">Birla Institute of Technology, Mesra | 2021-2025</p>
+                    <ul>
+                        <li>Cumulative GPA: 7.28/10</li>
+                        <li>Relevant Coursework:</li>
+                        <li class="course-list">
+                            <span class="course-tag">Data Structure and Algorithm</span>
+                            <span class="course-tag">Database Management System</span>
+                            <span class="course-tag">Data Mining</span>
+                            <span class="course-tag">Software Engineering</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <h3>Work Experience</h3>
+                <div class="experience-item">
+                    <h4>Software Developer Intern</h4>
+                    <p class="company">Tata Steel Ltd | May 2024 – August 2024</p>
+                    <ul>
+                        <li>Engineered a scalable web application to digitize and automate internal processes, enhancing operational efficiency by 40%</li>
+                        <li>Developed and optimized interactive UI components using modern front-end frameworks</li>
+                        <li>Integrated secure API endpoints and implemented real-time data analytics dashboards</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>Data Science Intern</h4>
+                    <p class="company">Mines and Geology Department, Jharkhand | July 2023 – August 2023</p>
+                    <ul>
+                        <li>Analyzed over 5,000 mineral images using PyTorch, OpenCV, and scikit-learn</li>
+                        <li>Achieved 90.5% classification accuracy using CNN and 87.3% using Random Forest</li>
+                        <li>Engineered a Streamlit-based web application for real-time mineral classification</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <p class="section-subtitle">Check out some of the cool projects I've created!</p>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <p class="project-date">2024</p>
+                    <h3>Image Enhancer using React + AI</h3>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">A modern AI-powered frontend web app to enhance and upscale user-uploaded images with real-time noise reduction and lighting enhancement.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Tailwind CSS</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Replicate API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <p class="project-date">2024</p>
+                    <h3>FileFlow – File Sharing WebApp</h3>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">A secure file sharing application enabling efficient file transfers with a 50% reduction in processing time and 40% improved user satisfaction.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <p class="project-date">2024</p>
+                    <h3>BrickSpace - RealEstate Application</h3>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">A comprehensive real estate platform featuring real-time property updates, interactive mapping, and scalable architecture for efficient property management.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Leaflet</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p class="section-subtitle">Let's work together to bring your ideas to life!</p>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                <div class="contact-details">
+                    <p><i class="fas fa-phone"></i> +91 7903132277</p>
+                    <p><i class="fas fa-envelope"></i> connect.shreyanshkashyap@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jamshedpur, Jharkhand, India</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <form id="contact-form" name="contact" method="POST" data-netlify="true">
+                <!-- Add hidden input for Netlify -->
+                <input type="hidden" name="form-name" value="contact">
+                <div class="form-group">
+                    <input type="text" name="firstName" placeholder="First Name" required>
+                    <input type="text" name="lastName" placeholder="Last Name" required>
+                </div>
+                <input type="email" name="email" placeholder="Email" required>
+                <select name="purpose" required>
+                    <option value="">Why are you sending this message?</option>
+                    <option value="work">Work Opportunity</option>
+                    <option value="collaboration">Project Collaboration</option>
+                    <option value="query">Technical Query</option>
+                    <option value="other">Other</option>
+                </select>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Shreyansh Kashyap. All rights reserved.</p>
+        <a href="#home" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
